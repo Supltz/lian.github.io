@@ -25,6 +25,7 @@ author = "Tangzheng Lian"
   title = "Tangzheng Lian"
   subtitle = "PhD Candidate in Computer Science | King's College London"
   content = "I work on trustworthy and responsible AI, with a focus on algorithmic fairness, out-of-distribution generalization, and multimodal learning."
+  image = "/images/tangzheng-lian.jpg"
 
   [params.about]
   enable = true
