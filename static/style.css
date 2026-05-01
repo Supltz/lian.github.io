@@ -1,9 +1,10 @@
 /* Custom overrides */
 /* About photo: keep rectangular feel with oval corners (not a perfect circle) */
 #about img.rounded-circle {
-  border-radius: 22% !important;
+  border-radius: 14% !important;
   aspect-ratio: 4 / 3;
-  width: min(320px, 90%);
+  width: min(420px, 96%);
+  max-width: 100%;
   height: auto;
   object-fit: cover;
 }
