@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://REPLACE_USERNAME.github.io/sitemap.xml
+Sitemap: https://supltz.github.io/lian.github.io/sitemap.xml

@@ -1,4 +1,4 @@
-baseURL = 'https://example.com/'
+baseURL = 'https://supltz.github.io/lian.github.io/'
 languageCode = 'en-us'
 title = 'Academic Profile'
 theme = 'hugo-profile'
