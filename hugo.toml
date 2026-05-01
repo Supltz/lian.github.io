@@ -69,6 +69,3 @@ customCSS = true
       icon = "fab fa-github"
       url = "https://github.com/Supltz"
 
-    [[params.hero.socialLinks.fontAwesomeIcons]]
-      icon = "fas fa-file-pdf"
-      url = "/cv.pdf"
