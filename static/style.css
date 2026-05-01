@@ -14,12 +14,19 @@
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
-#hero .image img.img-thumbnail {
+#hero .image.img,
+#hero .col-md-9.image,
+#hero .col-sm-12.col-md-9.image {
   width: 100% !important;
-  max-width: 640px !important;
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+}
+#hero .image img.img-thumbnail {
+  width: min(700px, 100%) !important;
+  max-width: 100% !important;
   height: auto;
 }
 @media (min-width: 992px) {
-  #hero .col-lg-8 { width: 50%; }
-  #hero .col-lg-4 { width: 50%; }
+  #hero .col-lg-8 { width: 45%; }
+  #hero .col-lg-4 { width: 55%; }
 }
