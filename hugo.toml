@@ -56,22 +56,19 @@ customCSS = true
     url = "/blog"
     weight = 3
 
-[[params.socialLinks]]
-  icon = "fab fa-google"
-  title = "Google Scholar"
-  url = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en"
+  [params.hero.socialLinks]
+    [[params.hero.socialLinks.fontAwesomeIcons]]
+      icon = "fab fa-google"
+      url = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en"
 
-[[params.socialLinks]]
-  icon = "fab fa-linkedin"
-  title = "LinkedIn"
-  url = "https://www.linkedin.com/in/tangzhenglian/?locale=en"
+    [[params.hero.socialLinks.fontAwesomeIcons]]
+      icon = "fab fa-linkedin"
+      url = "https://www.linkedin.com/in/tangzhenglian/?locale=en"
 
-[[params.socialLinks]]
-  icon = "fab fa-github"
-  title = "GitHub"
-  url = "https://github.com/Supltz"
+    [[params.hero.socialLinks.fontAwesomeIcons]]
+      icon = "fab fa-github"
+      url = "https://github.com/Supltz"
 
-[[params.socialLinks]]
-  icon = "fas fa-file-pdf"
-  title = "CV"
-  url = "/cv.pdf"
+    [[params.hero.socialLinks.fontAwesomeIcons]]
+      icon = "fas fa-file-pdf"
+      url = "/cv.pdf"
