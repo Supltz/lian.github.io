@@ -29,11 +29,13 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: ${{ env.HUGO_VERSION }}
-          extended: true
+      - name: Setup Hugo (extended)
+        run: |
+          set -e
+          HUGO_DEB="hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          wget -q "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_DEB}"
+          sudo dpkg -i "${HUGO_DEB}"
+          hugo version
 
       - name: Build
         run: hugo --minify
