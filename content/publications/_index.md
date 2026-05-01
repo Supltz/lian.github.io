@@ -2,6 +2,8 @@
 title: "Publications"
 ---
 
+For the most up-to-date list, please see my Google Scholar profile: [Tangzheng Lian on Google Scholar](https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en).
+
 ### 2026
 
 1. **Tangzheng Lian**, Guanyu Hu, Yijing Ren, Dimitrios Kollias, Oya Celiktutan.  

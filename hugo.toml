@@ -30,7 +30,7 @@ author = "Tangzheng Lian"
   [params.about]
   enable = true
   title = "About Me"
-  content = "I am a PhD Candidate at King's College London advised by Dr. Oya Celiktutan. My research centers on fair and robust machine learning, especially in vision-language and affective computing systems. I am open to research collaborations and opportunities."
+  content = "I am a PhD Candidate in Computer Science at King's College London (advisor: Dr. Oya Celiktutan), funded by the NMES Faculty Studentship. I previously completed an MSc in Computer Science (Distinction) at the University of Birmingham and a BEng in Telecommunication Engineering at BUPT. My research interests include Trustworthy/Responsible AI, Algorithmic Fairness, OOD Generalization, Vision-Language Models, and Affective Computing. I am open to research collaborations and opportunities."
 
   [params.contact]
   enable = true
