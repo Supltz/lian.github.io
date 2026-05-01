@@ -1,20 +1,26 @@
 {{ if .Site.Params.achievements.enable | default false }}
 {{- $achievements := .Site.Language.Params.achievements | default .Site.Params.achievements -}}
 <section id="achievements" class="py-5">
-    <div class="container">
-        <h3 class="text-center">{{ $achievements.title | default .Site.Params.achievements.title | default (i18n "achievements") }}</h3>
-        <div class="row justify-content-center px-3 px-md-5">
-            {{ range $achievements.items | default .Site.Params.achievements.items }}
-            <div class="col-12 my-2">
-                <div class="card my-1" title="{{ .title }}" style="background:#f4f5f7;border:1px solid #d9dce1;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04);padding:.65rem .8rem;">
-                    <div class="card-body bg-transparent p-2" style="padding:.35rem .2rem;">
-                        <h5 class="card-title bg-transparent mt-1">{{ .title }}</h5>
-                        <div class="card-text secondary-font">{{ .content | markdownify }}</div>
-                    </div>
-                </div>
-            </div>
+  <div class="container">
+    <h3 class="text-center">{{ $achievements.title | default .Site.Params.achievements.title | default (i18n "achievements") }}</h3>
+    <div class="row justify-content-center px-3 px-md-5">
+      {{ range $achievements.items | default .Site.Params.achievements.items }}
+      <div class="col-12 my-3">
+        <div class="card h-100">
+          <div class="card-body bg-transparent p-4 shadow-sm">
+            <h5 class="card-title bg-transparent" title="{{ .title }}">{{ .title }}</h5>
+            <div class="card-text secondary-font">{{ .content | markdownify }}</div>
+          </div>
+          <div class="mt-auto post-footer bg-transparent py-3 px-4">
+            <span class="float-start bg-transparent">Publication</span>
+            {{ if .url }}
+            <a href="{{ .url }}" target="_blank" class="float-end btn btn-outline-info btn-sm">Scholar</a>
             {{ end }}
+          </div>
         </div>
+      </div>
+      {{ end }}
     </div>
+  </div>
 </section>
 {{ end }}
