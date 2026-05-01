@@ -22,7 +22,7 @@
   flex: 0 0 100% !important;
 }
 #hero .image img.img-thumbnail {
-  width: min(700px, 100%) !important;
+  width: min(760px, 100%) !important;
   max-width: 100% !important;
   height: auto;
 }
