@@ -1,31 +1,40 @@
 baseURL = 'https://supltz.github.io/lian.github.io/'
 languageCode = 'en-us'
-title = 'Lian | PhD Student & Researcher'
+title = 'Tangzheng Lian | PhD Candidate in Computer Science'
 theme = 'hugo-profile'
 
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.7
+  filename = "sitemap.xml"
+
+[outputs]
+  home = ["HTML", "RSS", "SITEMAP"]
+
 [params]
-title = "Lian"
-description = "PhD student personal website featuring research, publications, and academic updates."
-keywords = ["PhD student", "research", "publications", "academic website", "university", "machine learning"]
-author = "Lian"
+title = "Tangzheng Lian"
+description = "PhD Candidate at King's College London researching Trustworthy AI, Algorithmic Fairness, OOD Generalization, Vision-Language Models, and Affective Computing."
+keywords = ["Tangzheng Lian", "PhD", "Trustworthy AI", "Algorithmic Fairness", "OOD Generalization", "Vision-Language Models", "Affective Computing", "King's College London"]
+author = "Tangzheng Lian"
 
   [params.hero]
   enable = true
   intro = "Hi, I am"
-  title = "Lian"
-  subtitle = "PhD Student · Researcher | Open to Research Collaborations"
-  content = "I work on data-driven and interdisciplinary research, and I am actively building projects for academic and industry impact."
-  image = ""
+  title = "Tangzheng Lian"
+  subtitle = "PhD Candidate in Computer Science | King's College London"
+  content = "I work on trustworthy and responsible AI, with a focus on algorithmic fairness, out-of-distribution generalization, and multimodal learning."
 
   [params.about]
   enable = true
   title = "About Me"
-  content = "I am a PhD student focused on impactful interdisciplinary research. My interests include machine learning, computational methods, and real-world applications. Here you can find my publications, ongoing projects, and research updates."
+  content = "I am a PhD Candidate at King's College London advised by Dr. Oya Celiktutan. My research centers on fair and robust machine learning, especially in vision-language and affective computing systems. I am open to research collaborations and opportunities."
 
   [params.contact]
   enable = true
   title = "Contact"
-  content = "For collaborations, internships, or research opportunities, feel free to reach out: your.email@university.edu"
+  content = "Email: lian.tangzheng@kcl.ac.uk"
 
 [menu]
   [[menu.main]]
@@ -44,12 +53,22 @@ author = "Lian"
     url = "/blog"
     weight = 3
 
-enableRobotsTXT = true
+[[params.socialLinks]]
+  icon = "fab fa-google"
+  title = "Google Scholar"
+  url = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en"
 
-[sitemap]
-  changefreq = "weekly"
-  priority = 0.7
-  filename = "sitemap.xml"
+[[params.socialLinks]]
+  icon = "fab fa-linkedin"
+  title = "LinkedIn"
+  url = "https://www.linkedin.com/in/tangzhenglian/?locale=en"
 
-[outputs]
-  home = ["HTML", "RSS", "SITEMAP"]
+[[params.socialLinks]]
+  icon = "fab fa-github"
+  title = "GitHub"
+  url = "https://github.com/Supltz"
+
+[[params.socialLinks]]
+  icon = "fas fa-file-pdf"
+  title = "CV"
+  url = "/cv.pdf"
