@@ -1,24 +1,26 @@
 baseURL = 'https://supltz.github.io/lian.github.io/'
 languageCode = 'en-us'
-title = 'Academic Profile'
+title = 'Lian | PhD Student & Researcher'
 theme = 'hugo-profile'
 
 [params]
-title = "Your Name"
-description = "PhD Student | Researcher"
+title = "Lian"
+description = "PhD student personal website featuring research, publications, and academic updates."
+keywords = ["PhD student", "research", "publications", "academic website", "university", "machine learning"]
+author = "Lian"
 
   [params.hero]
   enable = true
   intro = "Hi, I am"
-  title = "Your Name"
+  title = "Lian"
   subtitle = "PhD Student · Researcher"
-  content = "I work on X, Y, Z. Welcome to my academic profile."
+  content = "I share my research interests, publications, and academic updates here."
   image = ""
 
   [params.about]
   enable = true
   title = "About Me"
-  content = "Short bio here. Research interests, methods, and goals."
+  content = "I am a PhD student focused on impactful, interdisciplinary research. This site collects my projects, publications, and research notes."
 
   [params.contact]
   enable = true
