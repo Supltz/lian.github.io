@@ -6,21 +6,12 @@
         <div class="row justify-content-center px-3 px-md-5">
             {{ range $achievements.items | default .Site.Params.achievements.items }}
             <div class="col-12 my-2">
-                {{ if .url }}
-                <a class="card my-1 p-2" href="{{ .url }}" title="{{ .title }}" target="_blank">
+                <div class="card my-1" title="{{ .title }}">
                     <div class="card-body bg-transparent p-2">
-                        <h5 class="card-title bg-transparent">{{ .title }}</h5>
-                        <div class="card-text secondary-font">{{ .content | markdownify }}</div>
-                    </div>
-                </a>
-                {{ else }}
-                <div class="card my-1 p-2" title="{{ .title }}">
-                    <div class="card-body bg-transparent p-2">
-                        <h5 class="card-title bg-transparent">{{ .title }}</h5>
+                        <h5 class="card-title bg-transparent mt-1">{{ .title }}</h5>
                         <div class="card-text secondary-font">{{ .content | markdownify }}</div>
                     </div>
                 </div>
-                {{ end }}
             </div>
             {{ end }}
         </div>

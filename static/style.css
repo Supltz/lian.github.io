@@ -64,6 +64,10 @@
   min-height: 0 !important;
   height: auto !important;
 }
+#projects .card-text p,
+#achievements .card-text p {
+  margin: 0 !important;
+}
 
 /* Remove any thumbnail/image area in cards */
 #projects .card img,
