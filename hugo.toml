@@ -1,0 +1,53 @@
+baseURL = 'https://example.com/'
+languageCode = 'en-us'
+title = 'Academic Profile'
+theme = 'hugo-profile'
+
+[params]
+title = "Your Name"
+description = "PhD Student | Researcher"
+
+  [params.hero]
+  enable = true
+  intro = "Hi, I am"
+  title = "Your Name"
+  subtitle = "PhD Student · Researcher"
+  content = "I work on X, Y, Z. Welcome to my academic profile."
+  image = ""
+
+  [params.about]
+  enable = true
+  title = "About Me"
+  content = "Short bio here. Research interests, methods, and goals."
+
+  [params.contact]
+  enable = true
+  title = "Contact"
+  content = "email@example.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/#about"
+    weight = 1
+  [[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications"
+    weight = 2
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog"
+    weight = 3
+
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.7
+  filename = "sitemap.xml"
+
+[outputs]
+  home = ["HTML", "RSS", "SITEMAP"]
