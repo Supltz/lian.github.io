@@ -145,6 +145,49 @@ Keywords: Fairness, Multi-task Learning, Optimization
   title = "Towards Pareto Efficiency in Fair Facial Expression and Action Unit Recognition"
   content = """Authors: **Tangzheng Lian**, Oya Celiktutan  \nVenue: IEEE International Conference on Automatic Face and Gesture Recognition (FG), 2026  \nKeywords: Fairness, Pareto Optimization, FER, Action Units  \n[Paper](https://example.com/paper-fg2026.pdf) · [Code](https://github.com/Supltz/paper-fg2026-code)"""
 
+
+
+  [params.experience]
+  enable = true
+  title = "Teaching"
+
+  [[params.experience.items]]
+  company = "King’s College London"
+  companyUrl = "https://www.kcl.ac.uk/"
+    [[params.experience.items.jobs]]
+    name = "Teaching Assistant — Sensing and Perception"
+    date = "Spring 2024"
+    content = "Supported teaching, coursework, and student learning activities."
+
+    [[params.experience.items.jobs]]
+    name = "Teaching Assistant — Engineering Mathematics"
+    date = "Fall 2023"
+    content = "Supported tutorials and student learning in core mathematics modules."
+
+  [[params.experience.items]]
+  company = "Nottingham Trent University"
+  companyUrl = "https://www.ntu.ac.uk/"
+    [[params.experience.items.jobs]]
+    name = "Teaching Assistant — Applied Maths and Graphics"
+    date = "Spring 2023"
+    content = "Assisted teaching and practical sessions for undergraduate students."
+
+  [params.education]
+  enable = true
+  title = "Professional Services"
+
+  [[params.education.items]]
+  title = "Conference Reviewer"
+  school = { name = "CVPR, AAAI, WACV, BMVC", url = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en" }
+  date = "Ongoing"
+  content = "Regular reviewer for major computer vision and AI conferences."
+
+  [[params.education.items]]
+  title = "Journal Reviewer"
+  school = { name = "IEEE Transactions on Affective Computing; IEEE Transactions on Big Data", url = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en" }
+  date = "Ongoing"
+  content = "Reviewer for leading journals in affective computing and data science."
+
 [menu]
   [[menu.main]]
     identifier = "about"
