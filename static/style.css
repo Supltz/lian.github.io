@@ -31,22 +31,47 @@
   #hero .col-lg-4 { width: 55%; }
 }
 
-/* Make News/Publications compact and text-only */
+/* Make News/Publications compact, text-only, and one item per row */
+#projects .row,
+#achievements .row {
+  display: block !important;
+}
+#projects .col,
+#achievements .col,
+#projects [class*="col-"],
+#achievements [class*="col-"] {
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+}
+
 #projects .card,
 #achievements .card {
   box-shadow: none !important;
   border: 0 !important;
-  padding: 0.4rem 0 !important;
-  margin-bottom: 0.4rem !important;
+  border-radius: 0 !important;
+  padding: 0.3rem 0 !important;
+  margin-bottom: 0.5rem !important;
+  background: transparent !important;
+  min-height: 0 !important;
 }
+
+/* Remove any thumbnail/image area in cards */
 #projects .card img,
-#achievements .card img {
+#achievements .card img,
+#projects .card .card-img-top,
+#achievements .card .card-img-top,
+#projects .card .image,
+#achievements .card .image {
   display: none !important;
+  height: 0 !important;
 }
+
 #projects .card .card-body,
 #achievements .card .card-body {
-  padding: 0.2rem 0 !important;
+  padding: 0.15rem 0 !important;
 }
+
 #projects h3, #achievements h3 {
   margin-bottom: 0.6rem !important;
 }
