@@ -13,19 +13,19 @@ author = "Lian"
   enable = true
   intro = "Hi, I am"
   title = "Lian"
-  subtitle = "PhD Student · Researcher"
-  content = "I share my research interests, publications, and academic updates here."
+  subtitle = "PhD Student · Researcher | Open to Research Collaborations"
+  content = "I work on data-driven and interdisciplinary research, and I am actively building projects for academic and industry impact."
   image = ""
 
   [params.about]
   enable = true
   title = "About Me"
-  content = "I am a PhD student focused on impactful, interdisciplinary research. This site collects my projects, publications, and research notes."
+  content = "I am a PhD student focused on impactful interdisciplinary research. My interests include machine learning, computational methods, and real-world applications. Here you can find my publications, ongoing projects, and research updates."
 
   [params.contact]
   enable = true
   title = "Contact"
-  content = "email@example.com"
+  content = "For collaborations, internships, or research opportunities, feel free to reach out: your.email@university.edu"
 
 [menu]
   [[menu.main]]
