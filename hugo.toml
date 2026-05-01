@@ -44,16 +44,40 @@ customCSS = true
   title = "News"
 
   [[params.projects.items]]
+  title = "2026-04"
+  content = "🎯 One first-author paper was accepted at FG 2026!"
+
+  [[params.projects.items]]
+  title = "2026-02"
+  content = "🎯 One first-author paper was accepted at CVPR 2026!"
+
+  [[params.projects.items]]
   title = "2026-01"
-  content = "Presented 'Fair Domain Generalization: An Information-Theoretic View' as an oral presentation at AAAI 2026 in Singapore."
+  content = "🎯 One first-author paper was accepted at IEEE Transactions on Affective Computing!"
+
+  [[params.projects.items]]
+  title = "2026-01"
+  content = "🗣️ I gave an oral presentation at AAAI 2026 in Singapore (available online: https://underline.io/lecture/139684-fair-domain-generalization-an-information-theoretic-view)."
+
+  [[params.projects.items]]
+  title = "2025-11"
+  content = "🏆 One first-author paper was accepted at AAAI as an **Oral** presentation!"
 
   [[params.projects.items]]
   title = "2025-07"
-  content = "Gave an invited talk at the BMVA Symposium on AI Security in London."
+  content = "🗣️ I gave an invited talk at the BMVA Symposium on AI Security in London (event: https://www.bmva.org/meetings/25-07-16-AISecurity.html, video: https://youtube.com/watch?v=dWmlcbl3rjo&list=PLW8VWHVjepIszQtfq1N0UPfwVYwSxAgYL&index=8)."
+
+  [[params.projects.items]]
+  title = "2023-11"
+  content = "✈️ Traveled to Aberdeen to attend BMVC and present my poster."
+
+  [[params.projects.items]]
+  title = "2023-07"
+  content = "🎯 My first first-authored paper was accepted at BMVC 2023!"
 
   [[params.projects.items]]
   title = "2023-06"
-  content = "Started my PhD at King’s College London in the Social AI & Robotics Lab (SAIR)."
+  content = "🚀 Thrilled to start my PhD at King’s College London in the Social AI & Robotics Lab (SAIR), fully funded by the NMES scholarship!"
 
   [params.achievements]
   enable = true
