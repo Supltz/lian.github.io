@@ -6,8 +6,8 @@
         <div class="row justify-content-center px-3 px-md-5">
             {{ range $achievements.items | default .Site.Params.achievements.items }}
             <div class="col-12 my-2">
-                <div class="card my-1" title="{{ .title }}">
-                    <div class="card-body bg-transparent p-2">
+                <div class="card my-1" title="{{ .title }}" style="background:#f4f5f7;border:1px solid #d9dce1;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04);padding:.65rem .8rem;">
+                    <div class="card-body bg-transparent p-2" style="padding:.35rem .2rem;">
                         <h5 class="card-title bg-transparent mt-1">{{ .title }}</h5>
                         <div class="card-text secondary-font">{{ .content | markdownify }}</div>
                     </div>
