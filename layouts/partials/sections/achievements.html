@@ -7,7 +7,7 @@
       {{ range $achievements.items | default .Site.Params.achievements.items }}
       <div class="col-12 my-3">
         <div class="card h-100">
-          <div class="card-body bg-transparent p-4 shadow-sm">
+          <div class="card-body bg-transparent p-4">
             <h5 class="card-title bg-transparent text-nowrap overflow-hidden text-truncate" title="{{ .title }}">{{ .title }}</h5>
             <div class="card-text secondary-font">{{ .content | markdownify }}</div>
           </div>
