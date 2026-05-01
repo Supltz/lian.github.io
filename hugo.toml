@@ -85,45 +85,59 @@ customCSS = true
 
   [[params.achievements.items]]
   title = "A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks"
-  content = """Authors: Tangzheng Lian, Guanyu Hu, Yijing Ren, Dimitrios Kollias, Oya Celiktutan  
+  content = """Authors: **Tangzheng Lian**, Guanyu Hu, Yijing Ren, Dimitrios Kollias, Oya Celiktutan  
 Venue: CVPR 2026  
 Keywords: Fairness, VLM, Debiasing  
 [Paper](https://example.com/paper1.pdf) · [Code](https://github.com/Supltz/paper1-code)"""
 
   [[params.achievements.items]]
   title = "Fair Domain Generalization: An Information-Theoretic View"
-  content = """Authors: Tangzheng Lian, Guanyu Hu, Dimitrios Kollias, Xinyu Yang, Oya Celiktutan  
+  content = """Authors: **Tangzheng Lian**, Guanyu Hu, Dimitrios Kollias, Xinyu Yang, Oya Celiktutan  
 Venue: AAAI (Oral) 2026  
 Keywords: Domain Generalization, Fairness, OOD  
 [Paper](https://example.com/paper2.pdf) · [Code](https://github.com/Supltz/paper2-code)"""
 
   [[params.achievements.items]]
   title = "A Feature-level Framework for Evaluating Demographic Biases in Facial Expression Recognition Models"
-  content = """Authors: Tangzheng Lian, Oya Celiktutan  
+  content = """Authors: **Tangzheng Lian**, Oya Celiktutan  
 Venue: IEEE Transactions on Affective Computing 2026  
 Keywords: Affective Computing, Demographic Bias, FER  
 [Paper](https://example.com/paper3.pdf) · [Code](https://github.com/Supltz/paper3-code)"""
 
   [[params.achievements.items]]
   title = "Towards Pareto Efficiency in Fair Facial Expression and Action Unit Recognition"
-  content = """Authors: Tangzheng Lian, Oya Celiktutan  
+  content = """Authors: **Tangzheng Lian**, Oya Celiktutan  
 Venue: IEEE FG 2026  
 Keywords: Fairness, Pareto Optimization, FER, Action Units  
 [Paper](https://example.com/paper4.pdf) · [Code](https://github.com/Supltz/paper4-code)"""
 
   [[params.achievements.items]]
   title = "Supervised Contrastive Learning with Identity-Label Embeddings for Facial Action Unit Recognition"
-  content = """Authors: Tangzheng Lian, David Adama, Pedro Machado, Doratha Vinkemeier  
+  content = """Authors: **Tangzheng Lian**, David Adama, Pedro Machado, Doratha Vinkemeier  
 Venue: BMVC 2023  
 Keywords: Contrastive Learning, Facial Action Units  
 [Paper](https://example.com/paper5.pdf) · [Code](https://github.com/Supltz/paper5-code)"""
 
   [[params.achievements.items]]
   title = "Attention-guided Soft Ranking Loss for Resource-constrained Head Pose Estimation"
-  content = """Authors: Wenqi Xu, Tangzheng Lian, Wei Liu, Kaili Zhao  
+  content = """Authors: Wenqi Xu, **Tangzheng Lian**, Wei Liu, Kaili Zhao  
 Venue: IC-NIDC 2021  
 Keywords: Head Pose Estimation, Lightweight Models  
 [Paper](https://example.com/paper6.pdf) · [Code](https://github.com/Supltz/paper6-code)"""
+
+
+
+  [[params.achievements.items]]
+  title = "arXiv Preprint: Fair Domain Generalization (extended version)"
+  content = """Authors: **Tangzheng Lian**, Guanyu Hu, Dimitrios Kollias, Xinyu Yang, Oya Celiktutan  \nVenue: arXiv, 2025  \nKeywords: Domain Generalization, Fairness, OOD  \n[Paper](https://arxiv.org/) · [Code](https://github.com/Supltz/paper-arxiv1-code)"""
+
+  [[params.achievements.items]]
+  title = "arXiv Preprint: Debiasing Vision-Language Models"
+  content = """Authors: **Tangzheng Lian**, Guanyu Hu, Yijing Ren, Dimitrios Kollias, Oya Celiktutan  \nVenue: arXiv, 2025  \nKeywords: Vision-Language Models, Debiasing, Fairness  \n[Paper](https://arxiv.org/) · [Code](https://github.com/Supltz/paper-arxiv2-code)"""
+
+  [[params.achievements.items]]
+  title = "Towards Pareto Efficiency in Fair Facial Expression and Action Unit Recognition"
+  content = """Authors: **Tangzheng Lian**, Oya Celiktutan  \nVenue: IEEE International Conference on Automatic Face and Gesture Recognition (FG), 2026  \nKeywords: Fairness, Pareto Optimization, FER, Action Units  \n[Paper](https://example.com/paper-fg2026.pdf) · [Code](https://github.com/Supltz/paper-fg2026-code)"""
 
 [menu]
   [[menu.main]]
