@@ -128,12 +128,18 @@ Keywords: Head Pose Estimation, Lightweight Models
 
 
   [[params.achievements.items]]
-  title = "arXiv Preprint: Fair Domain Generalization (extended version)"
-  content = """Authors: **Tangzheng Lian**, Guanyu Hu, Dimitrios Kollias, Xinyu Yang, Oya Celiktutan  \nVenue: arXiv, 2025  \nKeywords: Domain Generalization, Fairness, OOD  \n[Paper](https://arxiv.org/) · [Code](https://github.com/Supltz/paper-arxiv1-code)"""
+  title = "Causalaffect: Causal discovery for facial affective understanding"
+  content = """Authors: Haotian Liu, **Tangzheng Lian**, Doratha Vinkemeier, Dimitrios Kollias, Oya Celiktutan  
+Venue: arXiv:2512.00456, 2025  
+Keywords: Causal Discovery, Affective Computing, Facial Analysis  
+[Paper](https://arxiv.org/abs/2512.00456) · [Code](https://github.com/Supltz/causalaffect-code)"""
 
   [[params.achievements.items]]
-  title = "arXiv Preprint: Debiasing Vision-Language Models"
-  content = """Authors: **Tangzheng Lian**, Guanyu Hu, Yijing Ren, Dimitrios Kollias, Oya Celiktutan  \nVenue: arXiv, 2025  \nKeywords: Vision-Language Models, Debiasing, Fairness  \n[Paper](https://arxiv.org/) · [Code](https://github.com/Supltz/paper-arxiv2-code)"""
+  title = "Fairmt: Fairness for heterogeneous multi-task learning"
+  content = """Authors: **Tangzheng Lian**, Dimitrios Kollias, Oya Celiktutan  
+Venue: arXiv:2512.00469, 2025  
+Keywords: Fairness, Multi-task Learning, Optimization  
+[Paper](https://arxiv.org/abs/2512.00469) · [Code](https://github.com/Supltz/fairmt-code)"""
 
   [[params.achievements.items]]
   title = "Towards Pareto Efficiency in Fair Facial Expression and Action Unit Recognition"
