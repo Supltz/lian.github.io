@@ -10,8 +10,16 @@
 }
 
 /* Hero: enlarge profile image */
-#hero img.img-thumbnail {
-  width: min(520px, 100%) !important;
-  max-width: 100% !important;
+#hero .image {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+#hero .image img.img-thumbnail {
+  width: 100% !important;
+  max-width: 640px !important;
   height: auto;
+}
+@media (min-width: 992px) {
+  #hero .col-lg-8 { width: 50%; }
+  #hero .col-lg-4 { width: 50%; }
 }
