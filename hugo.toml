@@ -25,12 +25,12 @@ author = "Tangzheng Lian"
   title = "Tangzheng Lian"
   subtitle = "PhD Candidate in Computer Science | King's College London"
   content = "I work on trustworthy and responsible AI, with a focus on algorithmic fairness, out-of-distribution generalization, and multimodal learning."
-  image = "/images/tangzheng-lian.jpg"
+  image = "images/tangzheng-lian.jpg"
 
   [params.about]
   enable = true
   title = "About Me"
-  image = "/images/tangzheng-lian.jpg"
+  image = "images/tangzheng-lian.jpg"
   content = "I am a PhD Candidate in Computer Science at King's College London (advisor: Dr. Oya Celiktutan), funded by the NMES Faculty Studentship. I previously completed an MSc in Computer Science (Distinction) at the University of Birmingham and a BEng in Telecommunication Engineering at BUPT. My research interests include Trustworthy/Responsible AI, Algorithmic Fairness, OOD Generalization, Vision-Language Models, and Affective Computing. I am open to research collaborations and opportunities."
 
   [params.contact]
