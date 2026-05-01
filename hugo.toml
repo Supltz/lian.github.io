@@ -18,6 +18,7 @@ title = "Tangzheng Lian"
 description = "PhD Candidate at King's College London researching Trustworthy AI, Algorithmic Fairness, OOD Generalization, Vision-Language Models, and Affective Computing."
 keywords = ["Tangzheng Lian", "PhD", "Trustworthy AI", "Algorithmic Fairness", "OOD Generalization", "Vision-Language Models", "Affective Computing", "King's College London"]
 author = "Tangzheng Lian"
+customCSS = true
 
   [params.hero]
   enable = true
