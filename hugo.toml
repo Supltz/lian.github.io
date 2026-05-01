@@ -41,59 +41,53 @@ customCSS = true
 
   [params.projects]
   enable = true
-  title = "Publications"
-
-  [[params.projects.items]]
-  title = "A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks"
-  content = "Tangzheng Lian, Guanyu Hu, Yijing Ren, Dimitrios Kollias, Oya Celiktutan. Accepted at CVPR 2026."
-  featured = { name = "Google Scholar", link = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en" }
-  badges = ["CVPR 2026", "Vision-Language Models", "Fairness"]
-
-  [[params.projects.items]]
-  title = "Fair Domain Generalization: An Information-Theoretic View"
-  content = "Tangzheng Lian, Guanyu Hu, Dimitrios Kollias, Xinyu Yang, Oya Celiktutan. AAAI 2026 (Oral Presentation)."
-  featured = { name = "Google Scholar", link = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en" }
-  badges = ["AAAI 2026", "Oral", "Domain Generalization"]
-
-  [[params.projects.items]]
-  title = "A Feature-level Framework for Evaluating Demographic Biases in Facial Expression Recognition Models"
-  content = "Tangzheng Lian, Oya Celiktutan. IEEE Transactions on Affective Computing, 2026."
-  featured = { name = "Google Scholar", link = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en" }
-  badges = ["IEEE TAC", "Affective Computing", "Bias Evaluation"]
-
-  [[params.projects.items]]
-  title = "Towards Pareto Efficiency in Fair Facial Expression and Action Unit Recognition"
-  content = "Tangzheng Lian, Oya Celiktutan. Accepted at IEEE FG 2026."
-  featured = { name = "Google Scholar", link = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en" }
-  badges = ["IEEE FG 2026", "Fairness", "Facial Analysis"]
-
-  [[params.projects.items]]
-  title = "Supervised Contrastive Learning with Identity-Label Embeddings for Facial Action Unit Recognition"
-  content = "Tangzheng Lian, David Adama, Pedro Machado, Doratha Vinkemeier. BMVC 2023."
-  featured = { name = "Google Scholar", link = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en" }
-  badges = ["BMVC 2023", "Facial Action Units"]
-
-  [[params.projects.items]]
-  title = "Attention-guided Soft Ranking Loss for Resource-constrained Head Pose Estimation"
-  content = "Wenqi Xu, Tangzheng Lian, Wei Liu, Kaili Zhao. IEEE IC-NIDC 2021."
-  featured = { name = "Google Scholar", link = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en" }
-  badges = ["2021", "Head Pose Estimation"]
-
-  [params.achievements]
-  enable = true
   title = "News"
 
-  [[params.achievements.items]]
+  [[params.projects.items]]
   title = "2026-01"
-  content = "Presented our paper 'Fair Domain Generalization: An Information-Theoretic View' as an oral presentation at AAAI 2026 in Singapore."
+  content = "Presented 'Fair Domain Generalization: An Information-Theoretic View' as an oral presentation at AAAI 2026 in Singapore."
 
-  [[params.achievements.items]]
+  [[params.projects.items]]
   title = "2025-07"
   content = "Gave an invited talk at the BMVA Symposium on AI Security in London."
 
-  [[params.achievements.items]]
+  [[params.projects.items]]
   title = "2023-06"
-  content = "Started my PhD at King's College London in the Social AI & Robotics Lab (SAIR)."
+  content = "Started my PhD at King’s College London in the Social AI & Robotics Lab (SAIR)."
+
+  [params.achievements]
+  enable = true
+  title = "Publications"
+
+  [[params.achievements.items]]
+  title = "CVPR 2026"
+  content = "A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks."
+  url = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en"
+
+  [[params.achievements.items]]
+  title = "AAAI 2026 (Oral)"
+  content = "Fair Domain Generalization: An Information-Theoretic View."
+  url = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en"
+
+  [[params.achievements.items]]
+  title = "IEEE TAC 2026"
+  content = "A Feature-level Framework for Evaluating Demographic Biases in Facial Expression Recognition Models."
+  url = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en"
+
+  [[params.achievements.items]]
+  title = "IEEE FG 2026"
+  content = "Towards Pareto Efficiency in Fair Facial Expression and Action Unit Recognition."
+  url = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en"
+
+  [[params.achievements.items]]
+  title = "BMVC 2023"
+  content = "Supervised Contrastive Learning with Identity-Label Embeddings for Facial Action Unit Recognition."
+  url = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en"
+
+  [[params.achievements.items]]
+  title = "IC-NIDC 2021"
+  content = "Attention-guided Soft Ranking Loss for Resource-constrained Head Pose Estimation."
+  url = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en"
 
 [menu]
   [[menu.main]]

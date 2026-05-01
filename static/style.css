@@ -30,3 +30,23 @@
   #hero .col-lg-8 { width: 45%; }
   #hero .col-lg-4 { width: 55%; }
 }
+
+/* Make News/Publications compact and text-only */
+#projects .card,
+#achievements .card {
+  box-shadow: none !important;
+  border: 0 !important;
+  padding: 0.4rem 0 !important;
+  margin-bottom: 0.4rem !important;
+}
+#projects .card img,
+#achievements .card img {
+  display: none !important;
+}
+#projects .card .card-body,
+#achievements .card .card-body {
+  padding: 0.2rem 0 !important;
+}
+#projects h3, #achievements h3 {
+  margin-bottom: 0.6rem !important;
+}
