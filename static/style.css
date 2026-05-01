@@ -8,3 +8,10 @@
   height: auto;
   object-fit: cover;
 }
+
+/* Hero: enlarge profile image */
+#hero img.img-thumbnail {
+  width: min(520px, 100%) !important;
+  max-width: 100% !important;
+  height: auto;
+}
