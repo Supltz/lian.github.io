@@ -54,6 +54,15 @@
   margin-bottom: 0.5rem !important;
   background: transparent !important;
   min-height: 0 !important;
+  height: auto !important;
+}
+
+#projects .card-body,
+#achievements .card-body,
+#projects .card-text,
+#achievements .card-text {
+  min-height: 0 !important;
+  height: auto !important;
 }
 
 /* Remove any thumbnail/image area in cards */
