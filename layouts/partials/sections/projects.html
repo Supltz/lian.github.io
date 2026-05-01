@@ -9,7 +9,7 @@
                 <div class="card my-1" title="{{ .title }}">
                     <div class="card-body bg-transparent p-2">
                         <h5 class="card-title bg-transparent mt-1">{{ .title }}</h5>
-                        <div class="card-text bg-transparent secondary-font">{{ .content }}</div>
+                        <div class="card-text bg-transparent secondary-font">{{ .content | markdownify }}</div>
                     </div>
                     {{ if .featured }}
                     <div class="card-footer py-2">
