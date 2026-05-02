@@ -174,14 +174,10 @@ Keywords: Fairness, Multi-task Learning, Optimization
   [[params.education.items]]
   title = "Conference Reviewer"
   school = { name = "CVPR, AAAI, WACV, BMVC" }
-  date = "Ongoing"
-  content = "CVPR, AAAI, WACV, BMVC."
 
   [[params.education.items]]
   title = "Journal Reviewer"
   school = { name = "IEEE Transactions on Affective Computing; IEEE Transactions on Big Data" }
-  date = "Ongoing"
-  content = "IEEE Transactions on Affective Computing; IEEE Transactions on Big Data."
 
 [menu]
   [[menu.main]]
