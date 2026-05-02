@@ -20,6 +20,9 @@ keywords = ["Tangzheng Lian", "PhD", "Trustworthy AI", "Algorithmic Fairness", "
 author = "Tangzheng Lian"
 customCSS = true
 
+  [params.navbar]
+  disableSearch = true
+
   [params.hero]
   enable = true
   intro = ""
