@@ -111,7 +111,7 @@ Keywords: Domain Generalization, Fairness, OOD
   [[params.achievements.items]]
   title = "A Feature-level Framework for Evaluating Demographic Biases in Facial Expression Recognition Models"
   content = """Authors: **Tangzheng Lian**, Oya Celiktutan  
-Status: IEEE Transactions on Affective Computing, 2026.  
+Status: Early Access at IEEE Transactions on Affective Computing, 2026.  
 Keywords: Affective Computing, Demographic Bias, FER  
 [Paper](https://ieeexplore.ieee.org/abstract/document/11367705) · [Code](https://github.com/Supltz/FairFER)"""
 
