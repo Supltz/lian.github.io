@@ -173,7 +173,7 @@ Keywords: Head Pose Estimation, Lightweight Models
 [menu]
   [[menu.main]]
     identifier = "cv"
-    name = "Download CV"
+    name = "Download My CV"
     url = "/cv.pdf"
     weight = 1
 
