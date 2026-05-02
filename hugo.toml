@@ -154,17 +154,17 @@ Keywords: Fairness, Multi-task Learning, Optimization
   [[params.experience.items]]
   company = "King’s College London"
     [[params.experience.items.jobs]]
-    name = "Sensing and Perception (King’s College London)"
+    name = "Sensing and Perception - King’s College London"
     date = "Spring 2024"
 
     [[params.experience.items.jobs]]
-    name = "Engineering Mathematics (King’s College London)"
+    name = "Engineering Mathematics - King’s College London"
     date = "Fall 2023"
 
   [[params.experience.items]]
   company = "Nottingham Trent University"
     [[params.experience.items.jobs]]
-    name = "Applied Maths and Graphics (Nottingham Trent University)"
+    name = "Applied Maths and Graphics - Nottingham Trent University"
     date = "Spring 2023"
 
   [params.education]
