@@ -97,64 +97,44 @@ customCSS = true
   [[params.achievements.items]]
   title = "A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks"
   content = """Authors: **Tangzheng Lian**, Guanyu Hu, Yijing Ren, Dimitrios Kollias, Oya Celiktutan  
-Venue: CVPR 2026  
+Status: Accepted at the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.  
 Keywords: Fairness, VLM, Debiasing  
-[Paper](https://example.com/paper1.pdf) · [Code](https://github.com/Supltz/paper1-code)"""
+[Paper](https://arxiv.org/pdf/2603.12998) · [Code](https://github.com/Supltz/Debias_VLM)"""
 
   [[params.achievements.items]]
   title = "Fair Domain Generalization: An Information-Theoretic View"
   content = """Authors: **Tangzheng Lian**, Guanyu Hu, Dimitrios Kollias, Xinyu Yang, Oya Celiktutan  
-Venue: AAAI (Oral) 2026  
+Status: In Proceedings of the AAAI Conference on Artificial Intelligence (**Oral Presentation**), 2026.  
 Keywords: Domain Generalization, Fairness, OOD  
-[Paper](https://example.com/paper2.pdf) · [Code](https://github.com/Supltz/paper2-code)"""
+[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/39508) · [Code](https://github.com/Supltz/FairDG)"""
 
   [[params.achievements.items]]
   title = "A Feature-level Framework for Evaluating Demographic Biases in Facial Expression Recognition Models"
   content = """Authors: **Tangzheng Lian**, Oya Celiktutan  
-Venue: IEEE Transactions on Affective Computing 2026  
+Status: IEEE Transactions on Affective Computing, 2026.  
 Keywords: Affective Computing, Demographic Bias, FER  
-[Paper](https://example.com/paper3.pdf) · [Code](https://github.com/Supltz/paper3-code)"""
+[Paper](https://ieeexplore.ieee.org/abstract/document/11367705) · [Code](https://github.com/Supltz/FairFER)"""
 
   [[params.achievements.items]]
   title = "Towards Pareto Efficiency in Fair Facial Expression and Action Unit Recognition"
   content = """Authors: **Tangzheng Lian**, Oya Celiktutan  
-Venue: IEEE FG 2026  
+Status: Accepted at the IEEE International Conference on Automatic Face and Gesture Recognition (FG), 2026.  
 Keywords: Fairness, Pareto Optimization, FER, Action Units  
-[Paper](https://example.com/paper4.pdf) · [Code](https://github.com/Supltz/paper4-code)"""
+[Paper](https://example.com/fg2026-paper.pdf) · [Code](https://github.com/Supltz/fg2026-code)"""
 
   [[params.achievements.items]]
   title = "Supervised Contrastive Learning with Identity-Label Embeddings for Facial Action Unit Recognition"
   content = """Authors: **Tangzheng Lian**, David Adama, Pedro Machado, Doratha Vinkemeier  
-Venue: BMVC 2023  
+Status: In Proceedings of the British Machine Vision Conference (BMVC), 2023.  
 Keywords: Contrastive Learning, Facial Action Units  
-[Paper](https://example.com/paper5.pdf) · [Code](https://github.com/Supltz/paper5-code)"""
+[Paper](https://papers.bmvc2023.org/0335.pdf) · [Code](https://example.com/bmvc2023-code)"""
 
   [[params.achievements.items]]
   title = "Attention-guided Soft Ranking Loss for Resource-constrained Head Pose Estimation"
   content = """Authors: Wenqi Xu, **Tangzheng Lian**, Wei Liu, Kaili Zhao  
-Venue: IC-NIDC 2021  
+Status: In Proceedings of the IEEE International Conference on Network Intelligence and Digital Content (IC-NIDC), 2021.  
 Keywords: Head Pose Estimation, Lightweight Models  
-[Paper](https://example.com/paper6.pdf) · [Code](https://github.com/Supltz/paper6-code)"""
-
-
-
-  [[params.achievements.items]]
-  title = "Causalaffect: Causal discovery for facial affective understanding"
-  content = """Authors: Guanyu Hu, **Tangzheng Lian**, Dimitrios Kollias, Oya Celiktutan, Xinyu Yang  
-Venue: arXiv:2512.00456, 2025  
-Keywords: Causal Discovery, Affective Computing, Facial Analysis  
-[Paper](https://arxiv.org/abs/2512.00456) · [Code](https://github.com/Supltz/causalaffect-code)"""
-
-  [[params.achievements.items]]
-  title = "Fairmt: Fairness for heterogeneous multi-task learning"
-  content = """Authors: Guanyu Hu, **Tangzheng Lian**, Na Yan, Dimitrios Kollias, Xinyu Yang, Oya Celiktutan, Siyang Song, Zeyu Fu  
-Venue: arXiv:2512.00469, 2025  
-Keywords: Fairness, Multi-task Learning, Optimization  
-[Paper](https://arxiv.org/abs/2512.00469) · [Code](https://github.com/Supltz/fairmt-code)"""
-
-  [[params.achievements.items]]
-  title = "Towards Pareto Efficiency in Fair Facial Expression and Action Unit Recognition"
-  content = """Authors: **Tangzheng Lian**, Oya Celiktutan  \nVenue: IEEE International Conference on Automatic Face and Gesture Recognition (FG), 2026  \nKeywords: Fairness, Pareto Optimization, FER, Action Units  \n[Paper](https://example.com/paper-fg2026.pdf) · [Code](https://github.com/Supltz/paper-fg2026-code)"""
+[Paper](https://ieeexplore.ieee.org/abstract/document/9660542) · [Code](https://example.com/icnidc2021-code)"""
 
 
 
