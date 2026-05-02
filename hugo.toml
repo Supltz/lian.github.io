@@ -23,6 +23,14 @@ customCSS = true
   [params.navbar]
   disableSearch = true
 
+  [params.navbar.menus]
+  disableAbout = true
+  disableExperience = true
+  disableEducation = true
+  disableProjects = true
+  disableAchievements = true
+  disableContact = true
+
   [params.hero]
   enable = true
   intro = ""
@@ -184,22 +192,12 @@ Keywords: Fairness, Multi-task Learning, Optimization
 
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/#about"
+    identifier = "cv"
+    name = "Download CV"
+    url = "/cv.pdf"
     weight = 1
-  [[menu.main]]
-    identifier = "publications"
-    name = "Publications"
-    url = "/publications"
-    weight = 2
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog"
-    weight = 3
 
-  [params.hero.socialLinks]
+[params.hero.socialLinks]
     [[params.hero.socialLinks.fontAwesomeIcons]]
       icon = "fab fa-google"
       url = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en"
