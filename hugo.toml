@@ -153,24 +153,19 @@ Keywords: Fairness, Multi-task Learning, Optimization
 
   [[params.experience.items]]
   company = "King’s College London"
-  companyUrl = "https://www.kcl.ac.uk/"
     [[params.experience.items.jobs]]
     name = "Teaching Assistant — Sensing and Perception"
     date = "Spring 2024"
-    content = "Supported teaching, coursework, and student learning activities."
 
     [[params.experience.items.jobs]]
     name = "Teaching Assistant — Engineering Mathematics"
     date = "Fall 2023"
-    content = "Supported tutorials and student learning in core mathematics modules."
 
   [[params.experience.items]]
   company = "Nottingham Trent University"
-  companyUrl = "https://www.ntu.ac.uk/"
     [[params.experience.items.jobs]]
     name = "Teaching Assistant — Applied Maths and Graphics"
     date = "Spring 2023"
-    content = "Assisted teaching and practical sessions for undergraduate students."
 
   [params.education]
   enable = true
@@ -178,15 +173,15 @@ Keywords: Fairness, Multi-task Learning, Optimization
 
   [[params.education.items]]
   title = "Conference Reviewer"
-  school = { name = "CVPR, AAAI, WACV, BMVC", url = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en" }
+  school = { name = "CVPR, AAAI, WACV, BMVC" }
   date = "Ongoing"
-  content = "Regular reviewer for major computer vision and AI conferences."
+  content = "CVPR, AAAI, WACV, BMVC."
 
   [[params.education.items]]
   title = "Journal Reviewer"
-  school = { name = "IEEE Transactions on Affective Computing; IEEE Transactions on Big Data", url = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en" }
+  school = { name = "IEEE Transactions on Affective Computing; IEEE Transactions on Big Data" }
   date = "Ongoing"
-  content = "Reviewer for leading journals in affective computing and data science."
+  content = "IEEE Transactions on Affective Computing; IEEE Transactions on Big Data."
 
 [menu]
   [[menu.main]]
