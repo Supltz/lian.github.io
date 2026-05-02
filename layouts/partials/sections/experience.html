@@ -1,0 +1,28 @@
+{{ if .Site.Params.experience.enable | default false }}
+{{- $experience := .Site.Language.Params.experience | default .Site.Params.experience -}}
+<section id="experience" class="py-5">
+  <div class="container">
+    <h3 class="text-center">{{ $experience.title | default .Site.Params.experience.title | default (i18n "experience") }}</h3>
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-10 col-lg-10 py-4">
+        <div class="experience-container px-3 pt-2">
+          {{ range $element := $experience.items | default .Site.Params.experience.items }}
+            {{ range $job := .jobs }}
+              <div class="pb-3">
+                <div class="d-flex align-items-center justify-content-between">
+                  <div>
+                    <span class="h5">{{ $job.name }}</span>
+                  </div>
+                  <div>
+                    <small>{{ $job.date }}</small>
+                  </div>
+                </div>
+              </div>
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
