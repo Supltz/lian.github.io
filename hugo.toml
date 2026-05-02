@@ -1,6 +1,6 @@
 baseURL = 'https://supltz.github.io/lian.github.io/'
 locale = 'en-us'
-title = 'Tangzheng Lian | PhD Candidate in Computer Science'
+title = 'Tangzheng Lian'
 theme = 'hugo-profile'
 
 enableRobotsTXT = true
