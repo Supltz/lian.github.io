@@ -27,9 +27,6 @@
                         </a>
                         {{ end }}
                     </div>
-                    <div class="col-auto px-0 h-100">
-                        {{- partial "sections/hero/social.html" . -}}
-                    </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
@@ -39,6 +36,9 @@
                             class="img-thumbnail mx-auto{{ if .Site.Params.hero.roundImage }} rounded-circle{{ end }}"
                             alt="{{ .Site.Params.title }} profile image"
                         >
+                        <div class="pt-3 d-flex justify-content-center">
+                            {{- partial "sections/hero/social.html" . -}}
+                        </div>
                     </div>
                 </div>
             </div>
