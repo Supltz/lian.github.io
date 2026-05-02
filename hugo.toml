@@ -92,7 +92,7 @@ customCSS = true
 
   [params.achievements]
   enable = true
-  title = "Publications"
+  title = "Featured Publications"
 
   [[params.achievements.items]]
   title = "A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks"
