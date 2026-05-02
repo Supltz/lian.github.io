@@ -140,14 +140,14 @@ Keywords: Head Pose Estimation, Lightweight Models
   [[params.achievements.items]]
   title = "Causalaffect: Causal discovery for facial affective understanding"
   content = """Authors: Guanyu Hu, **Tangzheng Lian**, Dimitrios Kollias, Oya Celiktutan, Xinyu Yang  
-Status: arXiv preprint, 2025.  
+Status: arXiv preprint, 2025  
 Keywords: Causal Discovery, Affective Computing, Facial Analysis  
 [Paper](https://arxiv.org/abs/2512.00456) · [Code](https://github.com/Supltz/causalaffect-code)"""
 
   [[params.achievements.items]]
   title = "Fairmt: Fairness for heterogeneous multi-task learning"
   content = """Authors: Guanyu Hu, **Tangzheng Lian**, Na Yan, Dimitrios Kollias, Xinyu Yang, Oya Celiktutan, Siyang Song, Zeyu Fu  
-Status: arXiv preprint, 2025.  
+Status: arXiv preprint, 2025  
 Keywords: Fairness, Multi-task Learning, Optimization  
 [Paper](https://arxiv.org/abs/2512.00469) · [Code](https://github.com/Supltz/fairmt-code)"""
 
