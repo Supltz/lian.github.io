@@ -97,9 +97,9 @@ customCSS = true
   [[params.achievements.items]]
   title = "A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks"
   content = """Authors: **Tangzheng Lian**, Guanyu Hu, Yijing Ren, Dimitrios Kollias, Oya Celiktutan  
-Status: Accepted at the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.  
+Status: In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.  
 Keywords: Fairness, VLM, Debiasing  
-[Paper](https://arxiv.org/pdf/2603.12998) · [Code](https://github.com/Supltz/Debias_VLM)"""
+[Paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Lian_A_Closed-Form_Solution_for_Debiasing_Vision-Language_Models_with_Utility_Guarantees_CVPR_2026_paper.pdf) · [Code](https://github.com/Supltz/Debias_VLM)"""
 
   [[params.achievements.items]]
   title = "Fair Domain Generalization: An Information-Theoretic View"
@@ -111,14 +111,14 @@ Keywords: Domain Generalization, Fairness, OOD
   [[params.achievements.items]]
   title = "A Feature-level Framework for Evaluating Demographic Biases in Facial Expression Recognition Models"
   content = """Authors: **Tangzheng Lian**, Oya Celiktutan  
-Status: Early Access at IEEE Transactions on Affective Computing, 2026.  
+Status: IEEE Transactions on Affective Computing, 2026.  
 Keywords: Affective Computing, Demographic Bias, FER  
 [Paper](https://ieeexplore.ieee.org/abstract/document/11367705) · [Code](https://github.com/Supltz/FairFER)"""
 
   [[params.achievements.items]]
   title = "Towards Pareto Efficiency in Fair Facial Expression and Action Unit Recognition"
   content = """Authors: **Tangzheng Lian**, Oya Celiktutan  
-Status: Accepted at the IEEE International Conference on Automatic Face and Gesture Recognition (FG), 2026.  
+Status: In Proceedings of the IEEE International Conference on Automatic Face and Gesture Recognition (FG), 2026.  
 Keywords: Fairness, Pareto Optimization, FER, Action Units  
 [Paper](https://example.com/fg2026-paper.pdf) · [Code](https://github.com/Supltz/fg2026-code)"""
 
@@ -207,4 +207,3 @@ Keywords: Fairness, Multi-task Learning, Optimization
     [[params.hero.socialLinks.fontAwesomeIcons]]
       icon = "fas fa-envelope"
       url = "mailto:lian.tangzheng@kcl.ac.uk"
-
