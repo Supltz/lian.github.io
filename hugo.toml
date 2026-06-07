@@ -55,6 +55,14 @@ customCSS = true
   title = "News"
 
   [[params.projects.items]]
+  title = "2026-06"
+  content = "✈️ Traveled to Paris to attend CVPR@Paris and present my poster."
+
+  [[params.projects.items]]
+  title = "2026-05"
+  content = "✈️ Traveled to Kyoto to attend FG and present my poster."
+
+  [[params.projects.items]]
   title = "2026-04"
   content = "🎯 One first-author paper was accepted at IEEE International Conference on Automatic Face and Gesture Recognition (FG) 2026!"
 
