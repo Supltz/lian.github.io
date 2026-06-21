@@ -20,7 +20,8 @@ For the most up-to-date list, please see my Google Scholar profile: [Tangzheng L
 
 4. **Tangzheng Lian**, Oya Celiktutan.  
    **Towards Pareto Efficiency in Fair Facial Expression and Action Unit Recognition.**  
-   *Accepted at IEEE International Conference on Automatic Face and Gesture Recognition (FG), 2026.*
+   *In Proceedings of the IEEE International Conference on Automatic Face and Gesture Recognition (FG), 2026.*  
+   [Paper](https://ieeexplore.ieee.org/abstract/document/11557017) · [Code](https://github.com/Supltz/UFTO)
 
 ### Earlier
 

@@ -128,7 +128,7 @@ Keywords: Affective Computing, Demographic Bias, FER
   content = """Authors: **Tangzheng Lian**, Oya Celiktutan  
 Status: In Proceedings of the IEEE International Conference on Automatic Face and Gesture Recognition (FG), 2026.  
 Keywords: Fairness, Pareto Optimization, FER, Action Units  
-[Paper](https://example.com/fg2026-paper.pdf) · [Code](https://github.com/Supltz/fg2026-code)"""
+[Paper](https://ieeexplore.ieee.org/abstract/document/11557017) · [Code](https://github.com/Supltz/UFTO)"""
 
   [[params.achievements.items]]
   title = "Supervised Contrastive Learning with Identity-Label Embeddings for Facial Action Unit Recognition"
