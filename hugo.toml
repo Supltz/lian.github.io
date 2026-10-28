@@ -55,6 +55,14 @@ customCSS = true
   title = "News"
 
   [[params.projects.items]]
+  title = "2026-09"
+  content = "🎯 Three papers were accepted at NeurIPS 2026!"
+
+  [[params.projects.items]]
+  title = "2026-08"
+  content = "🎯 One paper was accepted at BMVC 2026!"
+
+  [[params.projects.items]]
   title = "2026-06"
   content = "✈️ Traveled to Paris to attend CVPR@Paris and present my poster."
 

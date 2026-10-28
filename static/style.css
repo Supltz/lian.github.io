@@ -9,26 +9,64 @@
   object-fit: cover;
 }
 
-/* Hero: enlarge profile image */
-#hero .image {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+/* Keep the biography wide and the portrait compact. */
+#hero {
+  min-height: 0;
 }
-#hero .image.img,
-#hero .col-md-9.image,
-#hero .col-sm-12.col-md-9.image {
-  width: 100% !important;
-  max-width: 100% !important;
-  flex: 0 0 100% !important;
+#hero .hero-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: 2rem;
+}
+#hero .hero-copy {
+  min-width: 0;
+}
+#hero .hero-content p {
+  max-width: none;
+}
+#hero .hero-content > :first-child {
+  margin-top: 0;
+}
+#hero .hero-profile {
+  width: min(280px, 100%);
+  justify-self: center;
 }
 #hero .image img.img-thumbnail {
-  width: min(500px, 100%) !important;
-  max-width: 100% !important;
+  display: block;
+  width: 100%;
+  max-width: 100%;
   height: auto;
 }
+#hero .hero-social {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+#hero .hero-social > span {
+  display: flex;
+  flex-wrap: nowrap;
+}
+#hero .hero-social a.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-top: 0;
+  padding: 0;
+}
 @media (min-width: 992px) {
-  #hero .col-lg-8 { width: 45%; }
-  #hero .col-lg-4 { width: 55%; }
+  #hero .hero-layout {
+    grid-template-columns: minmax(0, 1fr) 320px;
+    column-gap: 3rem;
+    padding-left: 1rem;
+  }
+  #hero .hero-profile {
+    width: 100%;
+    justify-self: end;
+  }
 }
 
 /* Make News/Publications compact, text-only, and one item per row */
