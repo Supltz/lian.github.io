@@ -178,7 +178,7 @@
 
 
 #achievements .card-title { font-size: 1rem !important; margin-bottom: .4rem !important; }
-#achievements .card-text { font-size: .95rem !important; line-height: 1.5 !important; }
+#achievements .card-text { font-size: .95rem !important; line-height: 1.5 !important; background-color: transparent !important; }
 #achievements .card-text a { text-decoration: none !important; font-weight: 500; }
 
 /* Make Publications cards look like Blog cards */
