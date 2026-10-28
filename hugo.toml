@@ -225,16 +225,24 @@ Keywords: Head Pose Estimation, Lightweight Models
 [params.hero.socialLinks]
     [[params.hero.socialLinks.fontAwesomeIcons]]
       icon = "fab fa-google"
+      name = "Google Scholar"
+      svg = "brands/google.svg"
       url = "https://scholar.google.com/citations?user=inoVt88AAAAJ&hl=en"
 
     [[params.hero.socialLinks.fontAwesomeIcons]]
       icon = "fab fa-linkedin"
+      name = "LinkedIn"
+      svg = "brands/linkedin.svg"
       url = "https://www.linkedin.com/in/tangzhenglian/?locale=en"
 
     [[params.hero.socialLinks.fontAwesomeIcons]]
       icon = "fab fa-github"
+      name = "GitHub"
+      svg = "brands/github.svg"
       url = "https://github.com/Supltz"
 
     [[params.hero.socialLinks.fontAwesomeIcons]]
       icon = "fas fa-envelope"
+      name = "Email"
+      svg = "solid/envelope.svg"
       url = "mailto:lian.tangzheng@kcl.ac.uk"

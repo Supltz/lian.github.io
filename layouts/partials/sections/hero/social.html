@@ -1,0 +1,10 @@
+<div class="profile-links">
+    {{ range .Site.Params.hero.socialLinks.fontAwesomeIcons }}
+    <a class="profile-link" href="{{ .url }}"{{ if hasPrefix .url "https://" }} target="_blank" rel="noopener noreferrer"{{ end }}>
+        <span class="profile-link-label">{{ .name }}</span>
+        <span class="profile-link-icon" aria-hidden="true">
+            {{ os.ReadFile (printf "themes/hugo-profile/static/fontawesome-6/svgs/%s" .svg) | safeHTML }}
+        </span>
+    </a>
+    {{ end }}
+</div>

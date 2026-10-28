@@ -44,23 +44,49 @@
   height: auto;
 }
 #hero .hero-social {
-  display: flex;
-  justify-content: center;
   margin-top: 0.5rem;
-  padding-left: 1rem;
 }
-#hero .hero-social > span {
+#hero .profile-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem 0.75rem;
+}
+#hero .profile-link {
   display: flex;
-  flex-wrap: nowrap;
-}
-#hero .hero-social a.social-icon {
-  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  margin-top: 0;
-  padding: 0;
+  justify-content: space-between;
+  gap: 0.375rem;
+  min-width: 0;
+  min-height: 44px;
+  color: var(--text-link-color);
+  text-decoration: none;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+#hero .profile-link-label {
+  min-width: 0;
+}
+#hero .profile-link-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 32px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+}
+#hero .profile-link-icon svg {
+  display: block;
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+#hero .profile-link:hover .profile-link-label {
+  text-decoration: underline;
+}
+#hero .profile-link:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
 }
 @media (min-width: 992px) {
   #hero .hero-layout {
