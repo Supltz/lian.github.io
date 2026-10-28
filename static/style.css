@@ -25,6 +25,11 @@
 #hero .hero-content p {
   max-width: none;
 }
+#hero .hero-content ul {
+  font: inherit;
+  color: inherit;
+  opacity: 0.8;
+}
 #hero .hero-content > :first-child {
   margin-top: 0;
 }
