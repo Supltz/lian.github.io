@@ -115,6 +115,20 @@ customCSS = true
   title = "Featured Publications"
 
   [[params.achievements.items]]
+  title = "Causalaffect: Causal discovery for facial affective understanding"
+  content = """Authors: Guanyu Hu, **Tangzheng Lian**, Dimitrios Kollias, Oya Celiktutan, Xinyu Yang  
+Status: Accepted at NeurIPS 2026  
+Keywords: Causal Discovery, Affective Computing, Facial Analysis  
+[Paper](https://arxiv.org/abs/2512.00456) · [Code](https://github.com/Supltz/causalaffect-code)"""
+
+  [[params.achievements.items]]
+  title = "Fairmt: Fairness for heterogeneous multi-task learning"
+  content = """Authors: Guanyu Hu, **Tangzheng Lian**, Na Yan, Dimitrios Kollias, Xinyu Yang, Oya Celiktutan, Siyang Song, Zeyu Fu  
+Status: Accepted at NeurIPS 2026  
+Keywords: Fairness, Multi-task Learning, Optimization  
+[Paper](https://arxiv.org/abs/2512.00469) · [Code](https://github.com/Supltz/fairmt-code)"""
+
+  [[params.achievements.items]]
   title = "A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks"
   content = """Authors: **Tangzheng Lian**, Guanyu Hu, Yijing Ren, Dimitrios Kollias, Oya Celiktutan  
 Status: In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.  
@@ -155,22 +169,6 @@ Keywords: Contrastive Learning, Facial Action Units
 Status: In Proceedings of the IEEE International Conference on Network Intelligence and Digital Content (IC-NIDC), 2021.  
 Keywords: Head Pose Estimation, Lightweight Models  
 [Paper](https://ieeexplore.ieee.org/abstract/document/9660542) · [Code](https://example.com/icnidc2021-code)"""
-
-
-  [[params.achievements.items]]
-  title = "Causalaffect: Causal discovery for facial affective understanding"
-  content = """Authors: Guanyu Hu, **Tangzheng Lian**, Dimitrios Kollias, Oya Celiktutan, Xinyu Yang  
-Status: arXiv preprint, 2025  
-Keywords: Causal Discovery, Affective Computing, Facial Analysis  
-[Paper](https://arxiv.org/abs/2512.00456) · [Code](https://github.com/Supltz/causalaffect-code)"""
-
-  [[params.achievements.items]]
-  title = "Fairmt: Fairness for heterogeneous multi-task learning"
-  content = """Authors: Guanyu Hu, **Tangzheng Lian**, Na Yan, Dimitrios Kollias, Xinyu Yang, Oya Celiktutan, Siyang Song, Zeyu Fu  
-Status: arXiv preprint, 2025  
-Keywords: Fairness, Multi-task Learning, Optimization  
-[Paper](https://arxiv.org/abs/2512.00469) · [Code](https://github.com/Supltz/fairmt-code)"""
-
 
   [params.experience]
   enable = true
