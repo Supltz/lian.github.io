@@ -1,0 +1,15 @@
+<div class="col-12 my-2 news-item">
+    <div class="card my-1" title="{{ .title }}">
+        <div class="card-body bg-transparent p-2">
+            <h5 class="card-title bg-transparent mt-1">{{ .title }}</h5>
+            <div class="card-text bg-transparent secondary-font">{{ .content | markdownify }}</div>
+        </div>
+        {{ if .featured }}
+        <div class="card-footer py-2">
+            <span class="float-end">
+                <a class="btn btn-sm" href="{{ .featured.link }}" target="_blank">{{ .featured.name }}</a>
+            </span>
+        </div>
+        {{ end }}
+    </div>
+</div>

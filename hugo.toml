@@ -63,6 +63,10 @@ customCSS = true
   content = "🎯 One paper was accepted at BMVC 2026!"
 
   [[params.projects.items]]
+  title = "2026-08"
+  content = "🚀 Thrilled to join Huawei's London Darwin Research Center as a Research Intern!"
+
+  [[params.projects.items]]
   title = "2026-06"
   content = "✈️ Traveled to Paris to attend CVPR@Paris and present my poster."
 

@@ -127,6 +127,39 @@
   margin-bottom: 0.6rem !important;
 }
 
+#projects .news-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+  margin-top: 0.75rem;
+  padding: 0.4rem 0;
+  color: var(--text-link-color);
+  cursor: pointer;
+  list-style: none;
+}
+#projects .news-toggle::-webkit-details-marker {
+  display: none;
+}
+#projects .news-toggle:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+#projects .news-toggle:focus-visible {
+  outline: 2px solid var(--text-link-color);
+  outline-offset: 4px;
+}
+#projects .news-read-less,
+#projects .news-archive[open] .news-read-more {
+  display: none;
+}
+#projects .news-archive[open] .news-read-less {
+  display: inline;
+}
+#projects .news-archive[open] .fa-chevron-down {
+  transform: rotate(180deg);
+}
+
 
 #achievements .card-title { font-size: 1rem !important; margin-bottom: .4rem !important; }
 #achievements .card-text { font-size: .95rem !important; line-height: 1.5 !important; }
