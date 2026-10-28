@@ -1,18 +1,24 @@
 {{ if .Site.Params.achievements.enable | default false }}
 {{- $achievements := .Site.Language.Params.achievements | default .Site.Params.achievements -}}
+{{- $items := $achievements.items | default .Site.Params.achievements.items -}}
 <section id="achievements" class="py-5">
   <div class="container">
     <h3 class="text-center">{{ $achievements.title | default .Site.Params.achievements.title | default (i18n "achievements") }}</h3>
     <div class="row justify-content-center px-3 px-md-5">
-      {{ range $achievements.items | default .Site.Params.achievements.items }}
-      <div class="col-12 my-3">
-        <div class="card h-100">
-          <div class="card-body bg-transparent p-4">
-            <h5 class="card-title bg-transparent text-nowrap overflow-hidden text-truncate" title="{{ .title }}">{{ .title }}</h5>
-            <div class="card-text secondary-font">{{ .content | markdownify }}</div>
-          </div>
-        </div>
-      </div>
+      {{ range first 5 $items }}
+      {{ partial "sections/achievements/item.html" . }}
+      {{ end }}
+      {{ if gt (len $items) 5 }}
+      <details class="papers-archive">
+        <summary class="papers-toggle">
+          <span class="papers-read-more">Read More</span>
+          <span class="papers-read-less">Read Less</span>
+          <i class="fas fa-chevron-down" aria-hidden="true"></i>
+        </summary>
+        {{ range after 5 $items }}
+        {{ partial "sections/achievements/item.html" . }}
+        {{ end }}
+      </details>
       {{ end }}
     </div>
   </div>

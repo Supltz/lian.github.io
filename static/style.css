@@ -127,7 +127,8 @@
   margin-bottom: 0.6rem !important;
 }
 
-#projects .news-toggle {
+#projects .news-toggle,
+#achievements .papers-toggle {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -138,25 +139,35 @@
   cursor: pointer;
   list-style: none;
 }
-#projects .news-toggle::-webkit-details-marker {
+#achievements .papers-toggle {
+  margin-inline: auto;
+}
+#projects .news-toggle::-webkit-details-marker,
+#achievements .papers-toggle::-webkit-details-marker {
   display: none;
 }
-#projects .news-toggle:hover {
+#projects .news-toggle:hover,
+#achievements .papers-toggle:hover {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
-#projects .news-toggle:focus-visible {
+#projects .news-toggle:focus-visible,
+#achievements .papers-toggle:focus-visible {
   outline: 2px solid var(--text-link-color);
   outline-offset: 4px;
 }
 #projects .news-read-less,
-#projects .news-archive[open] .news-read-more {
+#projects .news-archive[open] .news-read-more,
+#achievements .papers-read-less,
+#achievements .papers-archive[open] .papers-read-more {
   display: none;
 }
-#projects .news-archive[open] .news-read-less {
+#projects .news-archive[open] .news-read-less,
+#achievements .papers-archive[open] .papers-read-less {
   display: inline;
 }
-#projects .news-archive[open] .fa-chevron-down {
+#projects .news-archive[open] .fa-chevron-down,
+#achievements .papers-archive[open] .fa-chevron-down {
   transform: rotate(180deg);
 }
 
