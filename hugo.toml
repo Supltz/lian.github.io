@@ -213,7 +213,7 @@ Keywords: Head Pose Estimation, Lightweight Models
 
   [[params.education.items]]
   title = "Journal Reviewer"
-  school = { name = "IEEE Transactions on Affective Computing; IEEE Transactions on Big Data" }
+  school = { name = "IEEE Transactions on Pattern Analysis and Machine Intelligence; IEEE Transactions on Neural Networks and Learning Systems; IEEE Transactions on Affective Computing; IEEE Transactions on Big Data" }
 
 [menu]
   [[menu.main]]
