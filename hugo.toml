@@ -215,13 +215,6 @@ Keywords: Head Pose Estimation, Lightweight Models
   title = "Journal Reviewer"
   school = { name = "IEEE Transactions on Pattern Analysis and Machine Intelligence; IEEE Transactions on Neural Networks and Learning Systems; IEEE Transactions on Affective Computing; IEEE Transactions on Big Data" }
 
-[menu]
-  [[menu.main]]
-    identifier = "cv"
-    name = "Download My CV"
-    url = "/cv.pdf"
-    weight = 1
-
 [params.hero.socialLinks]
     [[params.hero.socialLinks.fontAwesomeIcons]]
       icon = "fab fa-google"
