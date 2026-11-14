@@ -1,0 +1,14 @@
+<section id="research" class="page-section" data-section aria-labelledby="research-heading">
+  <h2 id="research-heading" class="section-heading">{{ .Site.Params.research.title }}</h2>
+  <div class="research-groups">
+    {{ range .Site.Params.research.items }}
+    <div class="research-group">
+      <h3 class="research-category">{{ .title }}</h3>
+      <ul class="research-topics">
+        {{ range .topics }}<li>{{ . }}</li>{{ end }}
+      </ul>
+    </div>
+    {{ end }}
+  </div>
+  <p class="research-closing">{{ .Site.Params.research.closing }}</p>
+</section>

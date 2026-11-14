@@ -20,6 +20,12 @@ keywords = ["Tangzheng Lian", "PhD", "Trustworthy AI", "Algorithmic Fairness", "
 author = "Tangzheng Lian"
 customCSS = true
 
+  [params.profile]
+  role = "Final-year PhD Candidate"
+  affiliation = "King's College London"
+  position = "Research Intern at Huawei"
+  email = "lian.tangzheng@kcl.ac.uk"
+
   [params.navbar]
   disableSearch = true
 
@@ -41,16 +47,28 @@ My name is Tangzheng Lian, and I am currently a final-year PhD candidate in the 
 
 Prior to King’s, I was a Research Assistant at the Computing and Informatics Research Center (CIRC) at Nottingham Trent University, where I worked with [Dr. Doratha Vinkemeier](https://scholar.google.com/citations?user=gyBNKOgAAAAJ&hl=en). I completed my MSc in Computer Science (Distinction) at the University of Birmingham and a BEng in Telecommunication Engineering at Beijing University of Posts and Telecommunications (BUPT).
 
-My research interests include:
-
-- Trustworthy AI/ML: Algorithmic Biases/Fairness; Out-of-Distribution (OOD)/Domain Generalization
-- Multimodal Learning: Vision-Language Models (VLMs); Multimodal Large Language Models (MLLMs)
-- Generative Modelling: Text-to-Image and Text-to-Motion Generation; Diffusion Models; Flow Matching
-- Affective Computing: Facial Behaviour Understanding; Gaze Communication; Speech Recognition
-
-I am always keen to discuss exciting ideas in broader CV/ML topics. If you work on similar topics and would like to connect and collaborate, feel free to drop me an email for a chat online or in person (London).
 """
   image = "images/tangzheng-lian.jpg"
+
+  [params.research]
+  title = "Research Interests"
+  closing = "I am always keen to discuss exciting ideas in broader CV/ML topics. If you work on similar topics and would like to connect and collaborate, feel free to drop me an email for a chat online or in person (London)."
+
+  [[params.research.items]]
+  title = "Trustworthy AI/ML"
+  topics = ["Algorithmic Biases/Fairness", "Out-of-Distribution (OOD)/Domain Generalization"]
+
+  [[params.research.items]]
+  title = "Multimodal Learning"
+  topics = ["Vision-Language Models (VLMs)", "Multimodal Large Language Models (MLLMs)"]
+
+  [[params.research.items]]
+  title = "Generative Modelling"
+  topics = ["Text-to-Image and Text-to-Motion Generation", "Diffusion Models", "Flow Matching"]
+
+  [[params.research.items]]
+  title = "Affective Computing"
+  topics = ["Facial Behaviour Understanding", "Gaze Communication", "Speech Recognition"]
 
   [params.about]
   enable = false
@@ -128,60 +146,86 @@ I am always keen to discuss exciting ideas in broader CV/ML topics. If you work 
   title = "Featured Publications"
 
   [[params.achievements.items]]
+  title = "Improving the Diffusability of Motion Tokenizer"
+  authors = "Guanhe Huang, Songqiao Han, **Tangzheng Lian**, Oya Celiktutan"
+  status = "Accepted at NeurIPS 2026"
+  venue = "NeurIPS"
+  year = "2026"
+  distinction = "Spotlight"
+  paper = "https://arxiv.org/abs/2611.10160"
+
+  [[params.achievements.items]]
   title = "Causalaffect: Causal discovery for facial affective understanding"
-  content = """Authors: Guanyu Hu, **Tangzheng Lian**, Dimitrios Kollias, Oya Celiktutan, Xinyu Yang  
-Status: Accepted at NeurIPS 2026  
-Keywords: Causal Discovery, Affective Computing, Facial Analysis  
-[Paper](https://arxiv.org/abs/2512.00456) · [Code](https://github.com/Supltz/causalaffect-code)"""
+  authors = "Guanyu Hu, **Tangzheng Lian**, Dimitrios Kollias, Oya Celiktutan, Xinyu Yang"
+  status = "Accepted at NeurIPS 2026"
+  keywords = ["Causal Discovery", "Affective Computing", "Facial Analysis"]
+  venue = "NeurIPS"
+  year = "2026"
+  paper = "https://arxiv.org/abs/2512.00456"
 
   [[params.achievements.items]]
   title = "Fairmt: Fairness for heterogeneous multi-task learning"
-  content = """Authors: Guanyu Hu, **Tangzheng Lian**, Na Yan, Dimitrios Kollias, Xinyu Yang, Oya Celiktutan, Siyang Song, Zeyu Fu  
-Status: Accepted at NeurIPS 2026  
-Keywords: Fairness, Multi-task Learning, Optimization  
-[Paper](https://arxiv.org/abs/2512.00469) · [Code](https://github.com/Supltz/fairmt-code)"""
+  authors = "Guanyu Hu, **Tangzheng Lian**, Na Yan, Dimitrios Kollias, Xinyu Yang, Oya Celiktutan, Siyang Song, Zeyu Fu"
+  status = "Accepted at NeurIPS 2026"
+  keywords = ["Fairness", "Multi-task Learning", "Optimization"]
+  venue = "NeurIPS"
+  year = "2026"
+  paper = "https://arxiv.org/abs/2512.00469"
 
   [[params.achievements.items]]
   title = "A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks"
-  content = """Authors: **Tangzheng Lian**, Guanyu Hu, Yijing Ren, Dimitrios Kollias, Oya Celiktutan  
-Status: In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026.  
-Keywords: Fairness, VLM, Debiasing  
-[Paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Lian_A_Closed-Form_Solution_for_Debiasing_Vision-Language_Models_with_Utility_Guarantees_CVPR_2026_paper.pdf) · [Code](https://github.com/Supltz/Debias_VLM)"""
+  authors = "**Tangzheng Lian**, Guanyu Hu, Yijing Ren, Dimitrios Kollias, Oya Celiktutan"
+  status = "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026."
+  keywords = ["Fairness", "VLM", "Debiasing"]
+  venue = "CVPR"
+  year = "2026"
+  paper = "https://openaccess.thecvf.com/content/CVPR2026/papers/Lian_A_Closed-Form_Solution_for_Debiasing_Vision-Language_Models_with_Utility_Guarantees_CVPR_2026_paper.pdf"
 
   [[params.achievements.items]]
   title = "Fair Domain Generalization: An Information-Theoretic View"
-  content = """Authors: **Tangzheng Lian**, Guanyu Hu, Dimitrios Kollias, Xinyu Yang, Oya Celiktutan  
-Status: In Proceedings of the AAAI Conference on Artificial Intelligence (**Oral Presentation**), 2026.  
-Keywords: Domain Generalization, Fairness, OOD  
-[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/39508) · [Code](https://github.com/Supltz/FairDG)"""
+  authors = "**Tangzheng Lian**, Guanyu Hu, Dimitrios Kollias, Xinyu Yang, Oya Celiktutan"
+  status = "In Proceedings of the AAAI Conference on Artificial Intelligence (**Oral Presentation**), 2026."
+  keywords = ["Domain Generalization", "Fairness", "OOD"]
+  venue = "AAAI"
+  year = "2026"
+  distinction = "Oral"
+  paper = "https://ojs.aaai.org/index.php/AAAI/article/view/39508"
 
   [[params.achievements.items]]
   title = "A Feature-level Framework for Evaluating Demographic Biases in Facial Expression Recognition Models"
-  content = """Authors: **Tangzheng Lian**, Oya Celiktutan  
-Status: IEEE Transactions on Affective Computing, 2026.  
-Keywords: Affective Computing, Demographic Bias, FER  
-[Paper](https://ieeexplore.ieee.org/abstract/document/11367705) · [Code](https://github.com/Supltz/FairFER)"""
+  authors = "**Tangzheng Lian**, Oya Celiktutan"
+  status = "IEEE Transactions on Affective Computing, 2026."
+  keywords = ["Affective Computing", "Demographic Bias", "FER"]
+  venue = "IEEE TAFFC"
+  year = "2026"
+  paper = "https://ieeexplore.ieee.org/abstract/document/11367705"
 
   [[params.achievements.items]]
   title = "Towards Pareto Efficiency in Fair Facial Expression and Action Unit Recognition"
-  content = """Authors: **Tangzheng Lian**, Oya Celiktutan  
-Status: In Proceedings of the IEEE International Conference on Automatic Face and Gesture Recognition (FG), 2026.  
-Keywords: Fairness, Pareto Optimization, FER, Action Units  
-[Paper](https://ieeexplore.ieee.org/abstract/document/11557017) · [Code](https://github.com/Supltz/UFTO)"""
+  authors = "**Tangzheng Lian**, Oya Celiktutan"
+  status = "In Proceedings of the IEEE International Conference on Automatic Face and Gesture Recognition (FG), 2026."
+  keywords = ["Fairness", "Pareto Optimization", "FER", "Action Units"]
+  venue = "FG"
+  year = "2026"
+  paper = "https://ieeexplore.ieee.org/abstract/document/11557017"
 
   [[params.achievements.items]]
   title = "Supervised Contrastive Learning with Identity-Label Embeddings for Facial Action Unit Recognition"
-  content = """Authors: **Tangzheng Lian**, David Adama, Pedro Machado, Doratha Vinkemeier  
-Status: In Proceedings of the British Machine Vision Conference (BMVC), 2023.  
-Keywords: Contrastive Learning, Facial Action Units  
-[Paper](https://papers.bmvc2023.org/0335.pdf) · [Code](https://example.com/bmvc2023-code)"""
+  authors = "**Tangzheng Lian**, David Adama, Pedro Machado, Doratha Vinkemeier"
+  status = "In Proceedings of the British Machine Vision Conference (BMVC), 2023."
+  keywords = ["Contrastive Learning", "Facial Action Units"]
+  venue = "BMVC"
+  year = "2023"
+  paper = "https://papers.bmvc2023.org/0335.pdf"
 
   [[params.achievements.items]]
   title = "Attention-guided Soft Ranking Loss for Resource-constrained Head Pose Estimation"
-  content = """Authors: Wenqi Xu, **Tangzheng Lian**, Wei Liu, Kaili Zhao  
-Status: In Proceedings of the IEEE International Conference on Network Intelligence and Digital Content (IC-NIDC), 2021.  
-Keywords: Head Pose Estimation, Lightweight Models  
-[Paper](https://ieeexplore.ieee.org/abstract/document/9660542) · [Code](https://example.com/icnidc2021-code)"""
+  authors = "Wenqi Xu, **Tangzheng Lian**, Wei Liu, Kaili Zhao"
+  status = "In Proceedings of the IEEE International Conference on Network Intelligence and Digital Content (IC-NIDC), 2021."
+  keywords = ["Head Pose Estimation", "Lightweight Models"]
+  venue = "IC-NIDC"
+  year = "2021"
+  paper = "https://ieeexplore.ieee.org/abstract/document/9660542"
 
   [params.experience]
   enable = false

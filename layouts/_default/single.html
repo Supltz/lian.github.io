@@ -1,0 +1,8 @@
+{{ define "title" }}{{ .Title }} | {{ .Site.Title }}{{ end }}
+{{ define "main" }}
+<article class="page-section">
+  <h1 class="section-heading">{{ .Title }}</h1>
+  {{ if not .Date.IsZero }}<time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>{{ end }}
+  <div class="prose">{{ .Content }}</div>
+</article>
+{{ end }}

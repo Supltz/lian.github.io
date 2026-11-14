@@ -1,26 +1,13 @@
-{{ if .Site.Params.projects.enable | default false }}
-{{- $projects := .Site.Language.Params.projects | default .Site.Params.projects -}}
-{{- $items := $projects.items | default .Site.Params.projects.items -}}
-<section id="projects" class="py-5">
-    <div class="container">
-        <h3 class="text-center">{{ $projects.title | default .Site.Params.projects.title | default (i18n "projects") }}</h3>
-        <div class="row justify-content-center px-3 px-md-5">
-            {{ range first 5 $items }}
-            {{ partial "sections/projects/item.html" . }}
-            {{ end }}
-            {{ if gt (len $items) 5 }}
-            <details class="news-archive">
-                <summary class="news-toggle">
-                    <span class="news-read-more">Read more</span>
-                    <span class="news-read-less">Read less</span>
-                    <i class="fas fa-chevron-down" aria-hidden="true"></i>
-                </summary>
-                {{ range after 5 $items }}
-                {{ partial "sections/projects/item.html" . }}
-                {{ end }}
-            </details>
-            {{ end }}
-        </div>
-    </div>
+{{ if .Site.Params.projects.enable }}
+{{ $items := .Site.Params.projects.items }}
+<section id="projects" class="page-section" data-section aria-labelledby="news-heading">
+  <h2 id="news-heading" class="section-heading">{{ .Site.Params.projects.title }}</h2>
+  <ul class="news-list">{{ range first 5 $items }}{{ partial "sections/projects/item.html" . }}{{ end }}</ul>
+  {{ if gt (len $items) 5 }}
+  <details class="archive news-archive">
+    {{ partial "academic/disclosure.html" (dict "label" "news") }}
+    <ul class="news-list">{{ range after 5 $items }}{{ partial "sections/projects/item.html" . }}{{ end }}</ul>
+  </details>
+  {{ end }}
 </section>
 {{ end }}

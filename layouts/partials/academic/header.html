@@ -1,0 +1,17 @@
+<header class="site-header">
+  <div class="site-shell header-inner">
+    <a class="site-brand" href="{{ .Site.Home.RelPermalink }}#hero">{{ .Site.Params.title }}</a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-controls="site-navigation" aria-expanded="false" hidden>
+      <span aria-hidden="true">{{ os.ReadFile "themes/hugo-profile/static/fontawesome-6/svgs/solid/bars.svg" | safeHTML }}</span>
+    </button>
+    <nav id="site-navigation" class="site-navigation" aria-label="Primary navigation">
+      {{ $home := .Site.Home.RelPermalink }}
+      <a href="{{ $home }}#hero" data-section-link="hero"{{ if .IsHome }} aria-current="location"{{ end }}>About</a>
+      <a href="{{ $home }}#research" data-section-link="research">Research</a>
+      <a href="{{ $home }}#projects" data-section-link="projects">News</a>
+      <a href="{{ $home }}#achievements" data-section-link="achievements">Publications</a>
+      <a href="{{ $home }}#education" data-section-link="education">Service</a>
+      <a href="{{ $home }}#contact" data-section-link="contact">Contact</a>
+    </nav>
+  </div>
+</header>

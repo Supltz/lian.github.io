@@ -1,38 +1,6 @@
-{{ if .Site.Params.hero.enable | default false }}
-{{- $hero := .Site.Language.Params.hero | default .Site.Params.hero -}}
-<section id="hero" class="py-5 align-middle">
-    <div class="container hero-container px-3 px-sm-5 px-md-5 px-lg-5 pt-lg-3">
-        <div class="hero-layout">
-            <div class="content hero-copy {{ if .Site.Params.animate }}animate{{ end }}" id="primary-font">
-                {{ with $hero.intro }}
-                <span class="subtitle">{{ . }}</span>
-                {{ end }}
-                {{ with $hero.title }}
-                <h1>{{ . }}</h1>
-                {{ end }}
-                {{ with $hero.subtitle }}
-                <h2>{{ . }}</h2>
-                {{ end }}
-                <div class="hero-content">
-                    {{ $hero.content | markdownify }}
-                </div>
-                {{ if .Site.Params.hero.button.enable }}
-                <a href="{{ .Site.Params.hero.button.url }}" class="btn" {{ cond .Site.Params.hero.button.download "download" "" }}
-                    {{ if .Site.Params.hero.button.newPage | default true }}target="_blank"{{ end }}>
-                    {{ $hero.button.name | default .Site.Params.hero.button.name }}
-                </a>
-                {{ end }}
-            </div>
-            <div class="hero-profile image {{ if .Site.Params.animate }}animate{{ end }}">
-                <img src="{{ .Site.Params.hero.image | relURL }}"
-                    class="img-thumbnail{{ if .Site.Params.hero.roundImage }} rounded-circle{{ end }}"
-                    alt="{{ .Site.Params.title }} profile image"
-                >
-                <div class="hero-social">
-                    {{- partial "sections/hero/social.html" . -}}
-                </div>
-            </div>
-        </div>
-    </div>
+{{ if .Site.Params.hero.enable }}
+<section id="hero" class="page-section" data-section aria-labelledby="about-heading">
+  <h2 id="about-heading" class="section-heading">About</h2>
+  <div class="biography prose">{{ .Site.Params.hero.content | markdownify }}</div>
 </section>
 {{ end }}

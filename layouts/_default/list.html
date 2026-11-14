@@ -1,0 +1,20 @@
+{{ define "title" }}{{ .Title }} | {{ .Site.Title }}{{ end }}
+{{ define "main" }}
+<section class="page-section">
+  <h1 class="section-heading">{{ .Title }}</h1>
+  {{ if eq .Section "publications" }}
+    {{ range .Site.Params.hero.socialLinks.fontAwesomeIcons }}{{ if eq .name "Google Scholar" }}<p>For the most up-to-date list, please see <a href="{{ .url }}">Tangzheng Lian on Google Scholar</a>.</p>{{ end }}{{ end }}
+    <div class="publications-list">{{ range .Site.Params.achievements.items }}{{ partial "sections/achievements/item.html" . }}{{ end }}</div>
+  {{ else }}
+    <div class="prose">{{ .Content }}</div>
+    {{ range .Paginator.Pages }}
+    <article class="post-item">
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+      <p>{{ .Summary | plainify }}</p>
+    </article>
+    {{ end }}
+    {{ template "_internal/pagination.html" . }}
+  {{ end }}
+</section>
+{{ end }}

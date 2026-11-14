@@ -1,0 +1,10 @@
+{{ if .Site.Params.education.enable }}
+<section id="education" class="page-section" data-section aria-labelledby="service-heading">
+  <h2 id="service-heading" class="section-heading">Academic Service</h2>
+  <dl class="service-list">
+    {{ range .Site.Params.education.items }}
+    <div class="service-item"><dt>{{ .title }}</dt><dd>{{ .school.name }}</dd></div>
+    {{ end }}
+  </dl>
+</section>
+{{ end }}
