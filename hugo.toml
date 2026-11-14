@@ -184,7 +184,7 @@ Keywords: Head Pose Estimation, Lightweight Models
 [Paper](https://ieeexplore.ieee.org/abstract/document/9660542) · [Code](https://example.com/icnidc2021-code)"""
 
   [params.experience]
-  enable = true
+  enable = false
   title = "Teaching Assistant"
 
   [[params.experience.items]]
