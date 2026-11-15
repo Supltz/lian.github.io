@@ -150,6 +150,25 @@ Prior to King’s, I was a Research Assistant at the Computing and Informatics R
   title = "Featured Publications"
 
   [[params.achievements.items]]
+  title = "A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks"
+  authors = "**Tangzheng Lian**, Guanyu Hu, Yijing Ren, Dimitrios Kollias, Oya Celiktutan"
+  status = "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026."
+  keywords = ["Fairness", "VLM", "Debiasing"]
+  venue = "CVPR"
+  year = "2026"
+  paper = "https://openaccess.thecvf.com/content/CVPR2026/papers/Lian_A_Closed-Form_Solution_for_Debiasing_Vision-Language_Models_with_Utility_Guarantees_CVPR_2026_paper.pdf"
+
+  [[params.achievements.items]]
+  title = "Fair Domain Generalization: An Information-Theoretic View"
+  authors = "**Tangzheng Lian**, Guanyu Hu, Dimitrios Kollias, Xinyu Yang, Oya Celiktutan"
+  status = "In Proceedings of the AAAI Conference on Artificial Intelligence (**Oral Presentation**), 2026."
+  keywords = ["Domain Generalization", "Fairness", "OOD"]
+  venue = "AAAI"
+  year = "2026"
+  distinction = "Oral"
+  paper = "https://ojs.aaai.org/index.php/AAAI/article/view/39508"
+
+  [[params.achievements.items]]
   title = "Improving the Diffusability of Motion Tokenizer"
   authors = "Guanhe Huang, Songqiao Han, **Tangzheng Lian**, Oya Celiktutan"
   status = "Accepted at NeurIPS 2026"
@@ -175,25 +194,6 @@ Prior to King’s, I was a Research Assistant at the Computing and Informatics R
   venue = "NeurIPS"
   year = "2026"
   paper = "https://arxiv.org/abs/2512.00469"
-
-  [[params.achievements.items]]
-  title = "A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks"
-  authors = "**Tangzheng Lian**, Guanyu Hu, Yijing Ren, Dimitrios Kollias, Oya Celiktutan"
-  status = "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026."
-  keywords = ["Fairness", "VLM", "Debiasing"]
-  venue = "CVPR"
-  year = "2026"
-  paper = "https://openaccess.thecvf.com/content/CVPR2026/papers/Lian_A_Closed-Form_Solution_for_Debiasing_Vision-Language_Models_with_Utility_Guarantees_CVPR_2026_paper.pdf"
-
-  [[params.achievements.items]]
-  title = "Fair Domain Generalization: An Information-Theoretic View"
-  authors = "**Tangzheng Lian**, Guanyu Hu, Dimitrios Kollias, Xinyu Yang, Oya Celiktutan"
-  status = "In Proceedings of the AAAI Conference on Artificial Intelligence (**Oral Presentation**), 2026."
-  keywords = ["Domain Generalization", "Fairness", "OOD"]
-  venue = "AAAI"
-  year = "2026"
-  distinction = "Oral"
-  paper = "https://ojs.aaai.org/index.php/AAAI/article/view/39508"
 
   [[params.achievements.items]]
   title = "A Feature-level Framework for Evaluating Demographic Biases in Facial Expression Recognition Models"
