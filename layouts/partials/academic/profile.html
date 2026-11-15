@@ -4,7 +4,6 @@
     {{ if .IsHome }}<h1 class="profile-name">{{ .Site.Params.title }}</h1>{{ else }}<p class="profile-name"><a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Params.title }}</a></p>{{ end }}
     <p class="profile-affiliation">{{ .Site.Params.profile.role }}<br>{{ .Site.Params.profile.affiliation }}</p>
     <p class="profile-position">{{ .Site.Params.profile.position }}</p>
-    <a class="profile-email" href="mailto:{{ .Site.Params.profile.email }}">{{ .Site.Params.profile.email }}</a>
     {{ partial "sections/hero/social.html" . }}
   </div>
 </aside>
