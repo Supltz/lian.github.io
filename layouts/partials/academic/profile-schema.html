@@ -1,0 +1,20 @@
+{{- $links := slice -}}
+{{- range .Site.Params.hero.socialLinks.fontAwesomeIcons -}}
+  {{- if hasPrefix .url "https://" -}}{{- $links = $links | append .url -}}{{- end -}}
+{{- end -}}
+{{- $subjects := slice -}}
+{{- range .Site.Params.research.items -}}{{- $subjects = $subjects | append .title -}}{{- end -}}
+{{- $person := dict
+  "@type" "Person"
+  "@id" (printf "%s#person" .Permalink)
+  "name" .Site.Params.title
+  "url" .Permalink
+  "image" (.Site.Params.hero.image | absURL)
+  "description" .Site.Params.description
+  "jobTitle" .Site.Params.profile.role
+  "affiliation" (dict "@type" "Organization" "name" .Site.Params.profile.affiliation)
+  "sameAs" $links
+  "knowsAbout" $subjects
+-}}
+{{- $profile := dict "@context" "https://schema.org" "@type" "ProfilePage" "url" .Permalink "mainEntity" $person -}}
+<script type="application/ld+json">{{ $profile | jsonify | safeJS }}</script>

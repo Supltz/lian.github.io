@@ -11,14 +11,18 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [outputs]
-  home = ["HTML", "RSS", "SITEMAP"]
+  home = ["HTML", "RSS"]
 
 [params]
 title = "Tangzheng Lian"
-description = "PhD Candidate at King's College London researching Trustworthy AI, Algorithmic Fairness, OOD Generalization, Vision-Language Models, and Affective Computing."
+description = "Tangzheng Lian is a final-year PhD candidate at King's College London researching trustworthy AI, multimodal learning, generative modelling and affective computing."
 keywords = ["Tangzheng Lian", "PhD", "Trustworthy AI", "Algorithmic Fairness", "OOD Generalization", "Vision-Language Models", "Affective Computing", "King's College London"]
 author = "Tangzheng Lian"
 customCSS = true
+
+  [params.seo]
+  homeTitle = "Tangzheng Lian | King's College London"
+  googleSiteVerification = "Oxt19pG562BpYfQw4NnuB3H624iBSvFUkJi5iHKpzC0"
 
   [params.profile]
   role = "Final-year PhD Candidate"

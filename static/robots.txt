@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://supltz.github.io/lian.github.io/sitemap.xml

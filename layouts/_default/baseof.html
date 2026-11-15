@@ -5,7 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ .Description | default .Site.Params.description }}">
   <meta name="author" content="{{ .Site.Params.author }}">
-  <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+  <title>{{ block "title" . }}{{ .Site.Params.seo.homeTitle | default .Site.Title }}{{ end }}</title>
+  {{ if .IsHome }}
+    {{ with .Site.Params.seo.googleSiteVerification }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
+    {{ partial "academic/profile-schema.html" . }}
+  {{ end }}
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="icon" href="{{ "fav.png" | relURL }}">
   {{- $css := resources.Get "css/site.css" | minify | fingerprint "sha256" -}}
